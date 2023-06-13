@@ -199,3 +199,7 @@ app_license = "nope"
 # auth_hooks = [
 #	"my_blog_template.auth.validate"
 # ]
+
+base_template_map = {
+    r"blogs.*": "my_blog_template/templates/blog_template.html"
+}
